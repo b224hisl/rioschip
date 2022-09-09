@@ -1,0 +1,18 @@
+project_directory: "/home/runner/projects/"
+
+caravel:
+    root:           /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7
+    gl_dir:         /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/verilog/gl
+    test_dir:       /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/verilog/dv
+    rtl_dir:        /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/verilog/rtl
+    includes_dir:   /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/verilog/includes/
+    mgmt_root:      /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/mgmt_core_wrapper/
+    config:         config.tcl
+
+env: # used for simulation
+    GCC_PATH:       /home/runner/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14/bin/
+    GCC_PREFIX:     riscv64-unknown-elf
+    PDK_PATH:       /home/runner/pdk/sky130B
+    PDK_ROOT:       /home/runner/pdk
+    OPENLANE:       /home/runner/openlane
+    PDK:            sky130B
