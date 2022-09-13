@@ -1,0 +1,59 @@
+# Caravel user project includes
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+//  0 Function generator             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_function_generator
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_function_generator/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_function_generator/function_generator/src/generator.v
+//  1 ibnalhaytham                   : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_ibnalhaytham
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/register_file.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/processor.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/mux3.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/memory_controler.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/ibnalhaytham.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/hazard_unit.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/extend.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/control_unit.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/alu.v
+//  3 Educational tpu                : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_etpu
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/edu_tpu.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/npu_wb.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/sysa_pe.v
+//  2 SiLife                         : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_silife
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/buf_reg.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/cell.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_32x32.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_loader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_sync.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_sync_edge.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_trng_loader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_wishbone.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/spi_master.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/max7219.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/trng.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/silife.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/vga.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/vga_sync_gen.v
+//  4 snn-asic                       : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_snn_network
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/input_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/hidden_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/output_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/snn_network.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/spk_counter.v
+//  5 wrapped mbs fsk                : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_mbsFSK
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/mbsFSK.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/sampleClockGen.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/SymbLUT.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/LFSRmod.v
+// shared Bridge                     : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_bridge
+// shared Wrapper                    : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_openram_wrapper
+// shared OpenRAM 1kybte             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/openram_z2a
+-v $(USER_PROJECT_VERILOG)/rtl/wb_bridge/src/wb_bridge_2way.v
+-v $(USER_PROJECT_VERILOG)/rtl/wb_openram_wrapper/src/register_rw.v
+-v $(USER_PROJECT_VERILOG)/rtl/wb_openram_wrapper/src/wb_port_control.v
+-v $(USER_PROJECT_VERILOG)/rtl/wb_openram_wrapper/src/wb_openram_wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/openram_z2a/src/sky130_sram_1kbyte_1rw1r_32x256_8.v
+

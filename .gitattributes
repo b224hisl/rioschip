@@ -1,0 +1,9 @@
+gds/*.gds filter=lfs diff=lfs merge=lfs -text
+gds/user_project_wrapper.gds filter=lfs diff=lfs merge=lfs -text
+gds/core_empty.gds filter=lfs diff=lfs merge=lfs -text
+lef/user_project_wrapper.lef filter=lfs diff=lfs merge=lfs -text
+lefcore_empty.lef filter=lfs diff=lfs merge=lfs -text
+mag/user_project_wrapper.mag filter=lfs diff=lfs merge=lfs -text
+mag/core_empty.mag filter=lfs diff=lfs merge=lfs -text
+maglef/core_empty.mag filter=lfs diff=lfs merge=lfs -text
+maglefuser_project_wrapper.mag filter=lfs diff=lfs merge=lfs -text

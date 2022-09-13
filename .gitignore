@@ -1,0 +1,15 @@
+/precheck_results
+/dependencies
+/*/*/runs
+*.log
+/openlane/user_project_wrapper/runs
+/info
+/gds/bus_arbiter.gds
+/gds/core_empty.gds
+/gds/l1dacahe.gds
+/gds/rvj1_caravel_soc.gds
+/gds/core_empty.gds
+/gds/l1icache_32.gds
+/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds
+/verilog/rtl/
+/caravel

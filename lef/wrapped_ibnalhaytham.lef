@@ -1,0 +1,2035 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO wrapped_ibnalhaytham
+  CLASS BLOCK ;
+  FOREIGN wrapped_ibnalhaytham ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 565.050 BY 575.770 ;
+  PIN active
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 186.850 0.000 187.130 4.000 ;
+    END
+  END active
+  PIN io_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 527.040 4.000 527.640 ;
+    END
+  END io_in[0]
+  PIN io_in[10]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 295.840 4.000 296.440 ;
+    END
+  END io_in[10]
+  PIN io_in[11]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 251.640 565.050 252.240 ;
+    END
+  END io_in[11]
+  PIN io_in[12]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 285.640 4.000 286.240 ;
+    END
+  END io_in[12]
+  PIN io_in[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 183.640 565.050 184.240 ;
+    END
+  END io_in[13]
+  PIN io_in[14]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 363.840 4.000 364.440 ;
+    END
+  END io_in[14]
+  PIN io_in[15]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 132.110 571.770 132.390 575.770 ;
+    END
+  END io_in[15]
+  PIN io_in[16]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 516.840 565.050 517.440 ;
+    END
+  END io_in[16]
+  PIN io_in[17]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 61.240 565.050 61.840 ;
+    END
+  END io_in[17]
+  PIN io_in[18]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 270.570 0.000 270.850 4.000 ;
+    END
+  END io_in[18]
+  PIN io_in[19]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 428.350 0.000 428.630 4.000 ;
+    END
+  END io_in[19]
+  PIN io_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 354.290 0.000 354.570 4.000 ;
+    END
+  END io_in[1]
+  PIN io_in[20]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 479.870 0.000 480.150 4.000 ;
+    END
+  END io_in[20]
+  PIN io_in[21]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 541.050 0.000 541.330 4.000 ;
+    END
+  END io_in[21]
+  PIN io_in[22]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 67.710 571.770 67.990 575.770 ;
+    END
+  END io_in[22]
+  PIN io_in[23]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 486.310 571.770 486.590 575.770 ;
+    END
+  END io_in[23]
+  PIN io_in[24]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 99.910 571.770 100.190 575.770 ;
+    END
+  END io_in[24]
+  PIN io_in[25]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 571.240 4.000 571.840 ;
+    END
+  END io_in[25]
+  PIN io_in[26]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 173.440 565.050 174.040 ;
+    END
+  END io_in[26]
+  PIN io_in[27]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 425.130 571.770 425.410 575.770 ;
+    END
+  END io_in[27]
+  PIN io_in[28]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 119.230 571.770 119.510 575.770 ;
+    END
+  END io_in[28]
+  PIN io_in[29]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 309.210 571.770 309.490 575.770 ;
+    END
+  END io_in[29]
+  PIN io_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 415.470 0.000 415.750 4.000 ;
+    END
+  END io_in[2]
+  PIN io_in[30]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 163.240 4.000 163.840 ;
+    END
+  END io_in[30]
+  PIN io_in[31]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 173.440 4.000 174.040 ;
+    END
+  END io_in[31]
+  PIN io_in[32]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 154.650 0.000 154.930 4.000 ;
+    END
+  END io_in[32]
+  PIN io_in[33]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 363.950 0.000 364.230 4.000 ;
+    END
+  END io_in[33]
+  PIN io_in[34]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 328.530 571.770 328.810 575.770 ;
+    END
+  END io_in[34]
+  PIN io_in[35]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 109.570 571.770 109.850 575.770 ;
+    END
+  END io_in[35]
+  PIN io_in[36]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 493.040 565.050 493.640 ;
+    END
+  END io_in[36]
+  PIN io_in[37]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 340.040 565.050 340.640 ;
+    END
+  END io_in[37]
+  PIN io_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 495.970 571.770 496.250 575.770 ;
+    END
+  END io_in[3]
+  PIN io_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 560.370 571.770 560.650 575.770 ;
+    END
+  END io_in[4]
+  PIN io_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 187.040 4.000 187.640 ;
+    END
+  END io_in[5]
+  PIN io_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 275.440 4.000 276.040 ;
+    END
+  END io_in[6]
+  PIN io_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 383.270 571.770 383.550 575.770 ;
+    END
+  END io_in[7]
+  PIN io_in[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 241.440 4.000 242.040 ;
+    END
+  END io_in[8]
+  PIN io_in[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 108.840 4.000 109.440 ;
+    END
+  END io_in[9]
+  PIN io_oeb[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 257.690 571.770 257.970 575.770 ;
+    END
+  END io_oeb[0]
+  PIN io_oeb[10]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 447.670 0.000 447.950 4.000 ;
+    END
+  END io_oeb[10]
+  PIN io_oeb[11]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 280.230 0.000 280.510 4.000 ;
+    END
+  END io_oeb[11]
+  PIN io_oeb[12]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 360.440 565.050 361.040 ;
+    END
+  END io_oeb[12]
+  PIN io_oeb[13]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 302.770 0.000 303.050 4.000 ;
+    END
+  END io_oeb[13]
+  PIN io_oeb[14]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 217.640 4.000 218.240 ;
+    END
+  END io_oeb[14]
+  PIN io_oeb[15]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 177.190 0.000 177.470 4.000 ;
+    END
+  END io_oeb[15]
+  PIN io_oeb[16]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 151.430 571.770 151.710 575.770 ;
+    END
+  END io_oeb[16]
+  PIN io_oeb[17]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 40.840 565.050 41.440 ;
+    END
+  END io_oeb[17]
+  PIN io_oeb[18]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 77.370 571.770 77.650 575.770 ;
+    END
+  END io_oeb[18]
+  PIN io_oeb[19]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 85.040 4.000 85.640 ;
+    END
+  END io_oeb[19]
+  PIN io_oeb[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 370.640 565.050 371.240 ;
+    END
+  END io_oeb[1]
+  PIN io_oeb[20]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 457.330 0.000 457.610 4.000 ;
+    END
+  END io_oeb[20]
+  PIN io_oeb[21]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 547.440 565.050 548.040 ;
+    END
+  END io_oeb[21]
+  PIN io_oeb[22]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 350.240 4.000 350.840 ;
+    END
+  END io_oeb[22]
+  PIN io_oeb[23]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 61.270 0.000 61.550 4.000 ;
+    END
+  END io_oeb[23]
+  PIN io_oeb[24]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 277.010 571.770 277.290 575.770 ;
+    END
+  END io_oeb[24]
+  PIN io_oeb[25]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 163.240 565.050 163.840 ;
+    END
+  END io_oeb[25]
+  PIN io_oeb[26]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 553.930 0.000 554.210 4.000 ;
+    END
+  END io_oeb[26]
+  PIN io_oeb[27]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 459.040 565.050 459.640 ;
+    END
+  END io_oeb[27]
+  PIN io_oeb[28]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 571.240 565.050 571.840 ;
+    END
+  END io_oeb[28]
+  PIN io_oeb[29]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 489.530 0.000 489.810 4.000 ;
+    END
+  END io_oeb[29]
+  PIN io_oeb[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 384.240 565.050 384.840 ;
+    END
+  END io_oeb[2]
+  PIN io_oeb[30]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 261.840 565.050 262.440 ;
+    END
+  END io_oeb[30]
+  PIN io_oeb[31]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 318.870 571.770 319.150 575.770 ;
+    END
+  END io_oeb[31]
+  PIN io_oeb[32]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 306.040 565.050 306.640 ;
+    END
+  END io_oeb[32]
+  PIN io_oeb[33]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 207.440 4.000 208.040 ;
+    END
+  END io_oeb[33]
+  PIN io_oeb[34]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 202.950 571.770 203.230 575.770 ;
+    END
+  END io_oeb[34]
+  PIN io_oeb[35]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 286.670 571.770 286.950 575.770 ;
+    END
+  END io_oeb[35]
+  PIN io_oeb[36]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 251.640 4.000 252.240 ;
+    END
+  END io_oeb[36]
+  PIN io_oeb[37]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 129.240 4.000 129.840 ;
+    END
+  END io_oeb[37]
+  PIN io_oeb[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 506.640 4.000 507.240 ;
+    END
+  END io_oeb[3]
+  PIN io_oeb[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 197.240 4.000 197.840 ;
+    END
+  END io_oeb[4]
+  PIN io_oeb[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 17.040 565.050 17.640 ;
+    END
+  END io_oeb[5]
+  PIN io_oeb[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 374.040 4.000 374.640 ;
+    END
+  END io_oeb[6]
+  PIN io_oeb[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 217.640 565.050 218.240 ;
+    END
+  END io_oeb[7]
+  PIN io_oeb[8]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 141.770 571.770 142.050 575.770 ;
+    END
+  END io_oeb[8]
+  PIN io_oeb[9]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 51.610 0.000 51.890 4.000 ;
+    END
+  END io_oeb[9]
+  PIN io_out[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 122.450 0.000 122.730 4.000 ;
+    END
+  END io_out[0]
+  PIN io_out[10]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 466.990 571.770 467.270 575.770 ;
+    END
+  END io_out[10]
+  PIN io_out[11]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 326.440 565.050 327.040 ;
+    END
+  END io_out[11]
+  PIN io_out[12]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 30.640 4.000 31.240 ;
+    END
+  END io_out[12]
+  PIN io_out[13]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 74.840 4.000 75.440 ;
+    END
+  END io_out[13]
+  PIN io_out[14]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 470.210 0.000 470.490 4.000 ;
+    END
+  END io_out[14]
+  PIN io_out[15]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 428.440 4.000 429.040 ;
+    END
+  END io_out[15]
+  PIN io_out[16]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 472.640 4.000 473.240 ;
+    END
+  END io_out[16]
+  PIN io_out[17]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 316.240 565.050 316.840 ;
+    END
+  END io_out[17]
+  PIN io_out[18]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 161.090 571.770 161.370 575.770 ;
+    END
+  END io_out[18]
+  PIN io_out[19]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 472.640 565.050 473.240 ;
+    END
+  END io_out[19]
+  PIN io_out[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 207.440 565.050 208.040 ;
+    END
+  END io_out[1]
+  PIN io_out[20]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 499.190 0.000 499.470 4.000 ;
+    END
+  END io_out[20]
+  PIN io_out[21]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 454.110 571.770 454.390 575.770 ;
+    END
+  END io_out[21]
+  PIN io_out[22]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 462.440 4.000 463.040 ;
+    END
+  END io_out[22]
+  PIN io_out[23]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 373.610 0.000 373.890 4.000 ;
+    END
+  END io_out[23]
+  PIN io_out[24]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 10.240 4.000 10.840 ;
+    END
+  END io_out[24]
+  PIN io_out[25]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 312.430 0.000 312.710 4.000 ;
+    END
+  END io_out[25]
+  PIN io_out[26]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 412.250 571.770 412.530 575.770 ;
+    END
+  END io_out[26]
+  PIN io_out[27]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 341.410 571.770 341.690 575.770 ;
+    END
+  END io_out[27]
+  PIN io_out[28]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 434.790 571.770 435.070 575.770 ;
+    END
+  END io_out[28]
+  PIN io_out[29]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 196.510 0.000 196.790 4.000 ;
+    END
+  END io_out[29]
+  PIN io_out[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 30.640 565.050 31.240 ;
+    END
+  END io_out[2]
+  PIN io_out[30]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 80.590 0.000 80.870 4.000 ;
+    END
+  END io_out[30]
+  PIN io_out[31]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 329.840 4.000 330.440 ;
+    END
+  END io_out[31]
+  PIN io_out[32]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 518.510 571.770 518.790 575.770 ;
+    END
+  END io_out[32]
+  PIN io_out[33]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 540.640 4.000 541.240 ;
+    END
+  END io_out[33]
+  PIN io_out[34]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 85.040 565.050 85.640 ;
+    END
+  END io_out[34]
+  PIN io_out[35]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 482.840 565.050 483.440 ;
+    END
+  END io_out[35]
+  PIN io_out[36]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 448.840 565.050 449.440 ;
+    END
+  END io_out[36]
+  PIN io_out[37]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 173.970 571.770 174.250 575.770 ;
+    END
+  END io_out[37]
+  PIN io_out[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 527.040 565.050 527.640 ;
+    END
+  END io_out[3]
+  PIN io_out[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 370.390 571.770 370.670 575.770 ;
+    END
+  END io_out[4]
+  PIN io_out[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 350.240 565.050 350.840 ;
+    END
+  END io_out[5]
+  PIN io_out[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 438.640 565.050 439.240 ;
+    END
+  END io_out[6]
+  PIN io_out[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 537.830 571.770 538.110 575.770 ;
+    END
+  END io_out[7]
+  PIN io_out[8]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 231.240 4.000 231.840 ;
+    END
+  END io_out[8]
+  PIN io_out[9]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 219.050 0.000 219.330 4.000 ;
+    END
+  END io_out[9]
+  PIN la1_data_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 119.040 565.050 119.640 ;
+    END
+  END la1_data_in[0]
+  PIN la1_data_in[10]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 95.240 565.050 95.840 ;
+    END
+  END la1_data_in[10]
+  PIN la1_data_in[11]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 248.030 0.000 248.310 4.000 ;
+    END
+  END la1_data_in[11]
+  PIN la1_data_in[12]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 16.190 571.770 16.470 575.770 ;
+    END
+  END la1_data_in[12]
+  PIN la1_data_in[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 531.390 0.000 531.670 4.000 ;
+    END
+  END la1_data_in[13]
+  PIN la1_data_in[14]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 386.490 0.000 386.770 4.000 ;
+    END
+  END la1_data_in[14]
+  PIN la1_data_in[15]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 54.440 4.000 55.040 ;
+    END
+  END la1_data_in[15]
+  PIN la1_data_in[16]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 183.630 571.770 183.910 575.770 ;
+    END
+  END la1_data_in[16]
+  PIN la1_data_in[17]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 64.640 4.000 65.240 ;
+    END
+  END la1_data_in[17]
+  PIN la1_data_in[18]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 267.350 571.770 267.630 575.770 ;
+    END
+  END la1_data_in[18]
+  PIN la1_data_in[19]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 20.440 4.000 21.040 ;
+    END
+  END la1_data_in[19]
+  PIN la1_data_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 193.290 571.770 193.570 575.770 ;
+    END
+  END la1_data_in[1]
+  PIN la1_data_in[20]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 228.710 0.000 228.990 4.000 ;
+    END
+  END la1_data_in[20]
+  PIN la1_data_in[21]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 418.240 4.000 418.840 ;
+    END
+  END la1_data_in[21]
+  PIN la1_data_in[22]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 550.710 571.770 550.990 575.770 ;
+    END
+  END la1_data_in[22]
+  PIN la1_data_in[23]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 105.440 565.050 106.040 ;
+    END
+  END la1_data_in[23]
+  PIN la1_data_in[24]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 282.240 565.050 282.840 ;
+    END
+  END la1_data_in[24]
+  PIN la1_data_in[25]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 164.310 0.000 164.590 4.000 ;
+    END
+  END la1_data_in[25]
+  PIN la1_data_in[26]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 438.640 4.000 439.240 ;
+    END
+  END la1_data_in[26]
+  PIN la1_data_in[27]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 51.040 565.050 51.640 ;
+    END
+  END la1_data_in[27]
+  PIN la1_data_in[28]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 6.530 571.770 6.810 575.770 ;
+    END
+  END la1_data_in[28]
+  PIN la1_data_in[29]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 48.390 571.770 48.670 575.770 ;
+    END
+  END la1_data_in[29]
+  PIN la1_data_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 119.040 4.000 119.640 ;
+    END
+  END la1_data_in[2]
+  PIN la1_data_in[30]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 135.330 0.000 135.610 4.000 ;
+    END
+  END la1_data_in[30]
+  PIN la1_data_in[31]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 19.410 0.000 19.690 4.000 ;
+    END
+  END la1_data_in[31]
+  PIN la1_data_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 438.010 0.000 438.290 4.000 ;
+    END
+  END la1_data_in[3]
+  PIN la1_data_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 563.590 0.000 563.870 4.000 ;
+    END
+  END la1_data_in[4]
+  PIN la1_data_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 476.650 571.770 476.930 575.770 ;
+    END
+  END la1_data_in[5]
+  PIN la1_data_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 25.850 571.770 26.130 575.770 ;
+    END
+  END la1_data_in[6]
+  PIN la1_data_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 215.830 571.770 216.110 575.770 ;
+    END
+  END la1_data_in[7]
+  PIN la1_data_in[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 261.840 4.000 262.440 ;
+    END
+  END la1_data_in[8]
+  PIN la1_data_in[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 225.490 571.770 225.770 575.770 ;
+    END
+  END la1_data_in[9]
+  PIN la1_data_out[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 394.440 4.000 395.040 ;
+    END
+  END la1_data_out[0]
+  PIN la1_data_out[10]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 93.470 0.000 93.750 4.000 ;
+    END
+  END la1_data_out[10]
+  PIN la1_data_out[11]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 139.440 565.050 140.040 ;
+    END
+  END la1_data_out[11]
+  PIN la1_data_out[12]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 260.910 0.000 261.190 4.000 ;
+    END
+  END la1_data_out[12]
+  PIN la1_data_out[13]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 537.240 565.050 537.840 ;
+    END
+  END la1_data_out[13]
+  PIN la1_data_out[14]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 414.840 565.050 415.440 ;
+    END
+  END la1_data_out[14]
+  PIN la1_data_out[15]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 299.550 571.770 299.830 575.770 ;
+    END
+  END la1_data_out[15]
+  PIN la1_data_out[16]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 482.840 4.000 483.440 ;
+    END
+  END la1_data_out[16]
+  PIN la1_data_out[17]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 193.840 565.050 194.440 ;
+    END
+  END la1_data_out[17]
+  PIN la1_data_out[18]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 384.240 4.000 384.840 ;
+    END
+  END la1_data_out[18]
+  PIN la1_data_out[19]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 58.050 571.770 58.330 575.770 ;
+    END
+  END la1_data_out[19]
+  PIN la1_data_out[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 295.840 565.050 296.440 ;
+    END
+  END la1_data_out[1]
+  PIN la1_data_out[20]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 516.840 4.000 517.440 ;
+    END
+  END la1_data_out[20]
+  PIN la1_data_out[21]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 331.750 0.000 332.030 4.000 ;
+    END
+  END la1_data_out[21]
+  PIN la1_data_out[22]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 503.240 565.050 503.840 ;
+    END
+  END la1_data_out[22]
+  PIN la1_data_out[23]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 351.070 571.770 351.350 575.770 ;
+    END
+  END la1_data_out[23]
+  PIN la1_data_out[24]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 144.990 0.000 145.270 4.000 ;
+    END
+  END la1_data_out[24]
+  PIN la1_data_out[25]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 227.840 565.050 228.440 ;
+    END
+  END la1_data_out[25]
+  PIN la1_data_out[26]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 40.840 4.000 41.440 ;
+    END
+  END la1_data_out[26]
+  PIN la1_data_out[27]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 74.840 565.050 75.440 ;
+    END
+  END la1_data_out[27]
+  PIN la1_data_out[28]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 550.840 4.000 551.440 ;
+    END
+  END la1_data_out[28]
+  PIN la1_data_out[29]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 512.070 0.000 512.350 4.000 ;
+    END
+  END la1_data_out[29]
+  PIN la1_data_out[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 70.930 0.000 71.210 4.000 ;
+    END
+  END la1_data_out[2]
+  PIN la1_data_out[30]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 238.370 0.000 238.650 4.000 ;
+    END
+  END la1_data_out[30]
+  PIN la1_data_out[31]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 149.640 565.050 150.240 ;
+    END
+  END la1_data_out[31]
+  PIN la1_data_out[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 561.040 565.050 561.640 ;
+    END
+  END la1_data_out[3]
+  PIN la1_data_out[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 153.040 4.000 153.640 ;
+    END
+  END la1_data_out[4]
+  PIN la1_data_out[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 521.730 0.000 522.010 4.000 ;
+    END
+  END la1_data_out[5]
+  PIN la1_data_out[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 38.730 0.000 39.010 4.000 ;
+    END
+  END la1_data_out[6]
+  PIN la1_data_out[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 238.040 565.050 238.640 ;
+    END
+  END la1_data_out[7]
+  PIN la1_data_out[8]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 9.750 0.000 10.030 4.000 ;
+    END
+  END la1_data_out[8]
+  PIN la1_data_out[9]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 428.440 565.050 429.040 ;
+    END
+  END la1_data_out[9]
+  PIN la1_oenb[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 528.170 571.770 528.450 575.770 ;
+    END
+  END la1_oenb[0]
+  PIN la1_oenb[10]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 6.840 565.050 7.440 ;
+    END
+  END la1_oenb[10]
+  PIN la1_oenb[11]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 508.850 571.770 509.130 575.770 ;
+    END
+  END la1_oenb[11]
+  PIN la1_oenb[12]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 319.640 4.000 320.240 ;
+    END
+  END la1_oenb[12]
+  PIN la1_oenb[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 340.040 4.000 340.640 ;
+    END
+  END la1_oenb[13]
+  PIN la1_oenb[14]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 344.630 0.000 344.910 4.000 ;
+    END
+  END la1_oenb[14]
+  PIN la1_oenb[15]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END la1_oenb[15]
+  PIN la1_oenb[16]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 405.810 0.000 406.090 4.000 ;
+    END
+  END la1_oenb[16]
+  PIN la1_oenb[17]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 408.040 4.000 408.640 ;
+    END
+  END la1_oenb[17]
+  PIN la1_oenb[18]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 35.510 571.770 35.790 575.770 ;
+    END
+  END la1_oenb[18]
+  PIN la1_oenb[19]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 244.810 571.770 245.090 575.770 ;
+    END
+  END la1_oenb[19]
+  PIN la1_oenb[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 306.040 4.000 306.640 ;
+    END
+  END la1_oenb[1]
+  PIN la1_oenb[20]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 103.130 0.000 103.410 4.000 ;
+    END
+  END la1_oenb[20]
+  PIN la1_oenb[21]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 29.070 0.000 29.350 4.000 ;
+    END
+  END la1_oenb[21]
+  PIN la1_oenb[22]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 360.730 571.770 361.010 575.770 ;
+    END
+  END la1_oenb[22]
+  PIN la1_oenb[23]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 235.150 571.770 235.430 575.770 ;
+    END
+  END la1_oenb[23]
+  PIN la1_oenb[24]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 289.890 0.000 290.170 4.000 ;
+    END
+  END la1_oenb[24]
+  PIN la1_oenb[25]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 444.450 571.770 444.730 575.770 ;
+    END
+  END la1_oenb[25]
+  PIN la1_oenb[26]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 129.240 565.050 129.840 ;
+    END
+  END la1_oenb[26]
+  PIN la1_oenb[27]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 452.240 4.000 452.840 ;
+    END
+  END la1_oenb[27]
+  PIN la1_oenb[28]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 404.640 565.050 405.240 ;
+    END
+  END la1_oenb[28]
+  PIN la1_oenb[29]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 112.790 0.000 113.070 4.000 ;
+    END
+  END la1_oenb[29]
+  PIN la1_oenb[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 206.170 0.000 206.450 4.000 ;
+    END
+  END la1_oenb[2]
+  PIN la1_oenb[30]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 98.640 4.000 99.240 ;
+    END
+  END la1_oenb[30]
+  PIN la1_oenb[31]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 394.440 565.050 395.040 ;
+    END
+  END la1_oenb[31]
+  PIN la1_oenb[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 322.090 0.000 322.370 4.000 ;
+    END
+  END la1_oenb[3]
+  PIN la1_oenb[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 402.590 571.770 402.870 575.770 ;
+    END
+  END la1_oenb[4]
+  PIN la1_oenb[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 392.930 571.770 393.210 575.770 ;
+    END
+  END la1_oenb[5]
+  PIN la1_oenb[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 561.040 4.000 561.640 ;
+    END
+  END la1_oenb[6]
+  PIN la1_oenb[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 90.250 571.770 90.530 575.770 ;
+    END
+  END la1_oenb[7]
+  PIN la1_oenb[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 396.150 0.000 396.430 4.000 ;
+    END
+  END la1_oenb[8]
+  PIN la1_oenb[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 142.840 4.000 143.440 ;
+    END
+  END la1_oenb[9]
+  PIN user_clock2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 496.440 4.000 497.040 ;
+    END
+  END user_clock2
+  PIN vccd1
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 21.040 10.640 22.640 563.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 174.640 10.640 176.240 563.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 328.240 10.640 329.840 563.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 481.840 10.640 483.440 563.280 ;
+    END
+  END vccd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 97.840 10.640 99.440 563.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 251.440 10.640 253.040 563.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 405.040 10.640 406.640 563.280 ;
+    END
+  END vssd1
+  PIN wb_clk_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 561.050 272.040 565.050 272.640 ;
+    END
+  END wb_clk_i
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 559.360 563.125 ;
+      LAYER met1 ;
+        RECT 0.070 7.520 564.810 566.400 ;
+      LAYER met2 ;
+        RECT 0.090 571.490 6.250 572.290 ;
+        RECT 7.090 571.490 15.910 572.290 ;
+        RECT 16.750 571.490 25.570 572.290 ;
+        RECT 26.410 571.490 35.230 572.290 ;
+        RECT 36.070 571.490 48.110 572.290 ;
+        RECT 48.950 571.490 57.770 572.290 ;
+        RECT 58.610 571.490 67.430 572.290 ;
+        RECT 68.270 571.490 77.090 572.290 ;
+        RECT 77.930 571.490 89.970 572.290 ;
+        RECT 90.810 571.490 99.630 572.290 ;
+        RECT 100.470 571.490 109.290 572.290 ;
+        RECT 110.130 571.490 118.950 572.290 ;
+        RECT 119.790 571.490 131.830 572.290 ;
+        RECT 132.670 571.490 141.490 572.290 ;
+        RECT 142.330 571.490 151.150 572.290 ;
+        RECT 151.990 571.490 160.810 572.290 ;
+        RECT 161.650 571.490 173.690 572.290 ;
+        RECT 174.530 571.490 183.350 572.290 ;
+        RECT 184.190 571.490 193.010 572.290 ;
+        RECT 193.850 571.490 202.670 572.290 ;
+        RECT 203.510 571.490 215.550 572.290 ;
+        RECT 216.390 571.490 225.210 572.290 ;
+        RECT 226.050 571.490 234.870 572.290 ;
+        RECT 235.710 571.490 244.530 572.290 ;
+        RECT 245.370 571.490 257.410 572.290 ;
+        RECT 258.250 571.490 267.070 572.290 ;
+        RECT 267.910 571.490 276.730 572.290 ;
+        RECT 277.570 571.490 286.390 572.290 ;
+        RECT 287.230 571.490 299.270 572.290 ;
+        RECT 300.110 571.490 308.930 572.290 ;
+        RECT 309.770 571.490 318.590 572.290 ;
+        RECT 319.430 571.490 328.250 572.290 ;
+        RECT 329.090 571.490 341.130 572.290 ;
+        RECT 341.970 571.490 350.790 572.290 ;
+        RECT 351.630 571.490 360.450 572.290 ;
+        RECT 361.290 571.490 370.110 572.290 ;
+        RECT 370.950 571.490 382.990 572.290 ;
+        RECT 383.830 571.490 392.650 572.290 ;
+        RECT 393.490 571.490 402.310 572.290 ;
+        RECT 403.150 571.490 411.970 572.290 ;
+        RECT 412.810 571.490 424.850 572.290 ;
+        RECT 425.690 571.490 434.510 572.290 ;
+        RECT 435.350 571.490 444.170 572.290 ;
+        RECT 445.010 571.490 453.830 572.290 ;
+        RECT 454.670 571.490 466.710 572.290 ;
+        RECT 467.550 571.490 476.370 572.290 ;
+        RECT 477.210 571.490 486.030 572.290 ;
+        RECT 486.870 571.490 495.690 572.290 ;
+        RECT 496.530 571.490 508.570 572.290 ;
+        RECT 509.410 571.490 518.230 572.290 ;
+        RECT 519.070 571.490 527.890 572.290 ;
+        RECT 528.730 571.490 537.550 572.290 ;
+        RECT 538.390 571.490 550.430 572.290 ;
+        RECT 551.270 571.490 560.090 572.290 ;
+        RECT 560.930 571.490 564.780 572.290 ;
+        RECT 0.090 4.280 564.780 571.490 ;
+        RECT 0.650 3.670 9.470 4.280 ;
+        RECT 10.310 3.670 19.130 4.280 ;
+        RECT 19.970 3.670 28.790 4.280 ;
+        RECT 29.630 3.670 38.450 4.280 ;
+        RECT 39.290 3.670 51.330 4.280 ;
+        RECT 52.170 3.670 60.990 4.280 ;
+        RECT 61.830 3.670 70.650 4.280 ;
+        RECT 71.490 3.670 80.310 4.280 ;
+        RECT 81.150 3.670 93.190 4.280 ;
+        RECT 94.030 3.670 102.850 4.280 ;
+        RECT 103.690 3.670 112.510 4.280 ;
+        RECT 113.350 3.670 122.170 4.280 ;
+        RECT 123.010 3.670 135.050 4.280 ;
+        RECT 135.890 3.670 144.710 4.280 ;
+        RECT 145.550 3.670 154.370 4.280 ;
+        RECT 155.210 3.670 164.030 4.280 ;
+        RECT 164.870 3.670 176.910 4.280 ;
+        RECT 177.750 3.670 186.570 4.280 ;
+        RECT 187.410 3.670 196.230 4.280 ;
+        RECT 197.070 3.670 205.890 4.280 ;
+        RECT 206.730 3.670 218.770 4.280 ;
+        RECT 219.610 3.670 228.430 4.280 ;
+        RECT 229.270 3.670 238.090 4.280 ;
+        RECT 238.930 3.670 247.750 4.280 ;
+        RECT 248.590 3.670 260.630 4.280 ;
+        RECT 261.470 3.670 270.290 4.280 ;
+        RECT 271.130 3.670 279.950 4.280 ;
+        RECT 280.790 3.670 289.610 4.280 ;
+        RECT 290.450 3.670 302.490 4.280 ;
+        RECT 303.330 3.670 312.150 4.280 ;
+        RECT 312.990 3.670 321.810 4.280 ;
+        RECT 322.650 3.670 331.470 4.280 ;
+        RECT 332.310 3.670 344.350 4.280 ;
+        RECT 345.190 3.670 354.010 4.280 ;
+        RECT 354.850 3.670 363.670 4.280 ;
+        RECT 364.510 3.670 373.330 4.280 ;
+        RECT 374.170 3.670 386.210 4.280 ;
+        RECT 387.050 3.670 395.870 4.280 ;
+        RECT 396.710 3.670 405.530 4.280 ;
+        RECT 406.370 3.670 415.190 4.280 ;
+        RECT 416.030 3.670 428.070 4.280 ;
+        RECT 428.910 3.670 437.730 4.280 ;
+        RECT 438.570 3.670 447.390 4.280 ;
+        RECT 448.230 3.670 457.050 4.280 ;
+        RECT 457.890 3.670 469.930 4.280 ;
+        RECT 470.770 3.670 479.590 4.280 ;
+        RECT 480.430 3.670 489.250 4.280 ;
+        RECT 490.090 3.670 498.910 4.280 ;
+        RECT 499.750 3.670 511.790 4.280 ;
+        RECT 512.630 3.670 521.450 4.280 ;
+        RECT 522.290 3.670 531.110 4.280 ;
+        RECT 531.950 3.670 540.770 4.280 ;
+        RECT 541.610 3.670 553.650 4.280 ;
+        RECT 554.490 3.670 563.310 4.280 ;
+        RECT 564.150 3.670 564.780 4.280 ;
+      LAYER met3 ;
+        RECT 4.400 570.840 560.650 571.705 ;
+        RECT 0.065 562.040 562.055 570.840 ;
+        RECT 4.400 560.640 560.650 562.040 ;
+        RECT 0.065 551.840 562.055 560.640 ;
+        RECT 4.400 550.440 562.055 551.840 ;
+        RECT 0.065 548.440 562.055 550.440 ;
+        RECT 0.065 547.040 560.650 548.440 ;
+        RECT 0.065 541.640 562.055 547.040 ;
+        RECT 4.400 540.240 562.055 541.640 ;
+        RECT 0.065 538.240 562.055 540.240 ;
+        RECT 0.065 536.840 560.650 538.240 ;
+        RECT 0.065 528.040 562.055 536.840 ;
+        RECT 4.400 526.640 560.650 528.040 ;
+        RECT 0.065 517.840 562.055 526.640 ;
+        RECT 4.400 516.440 560.650 517.840 ;
+        RECT 0.065 507.640 562.055 516.440 ;
+        RECT 4.400 506.240 562.055 507.640 ;
+        RECT 0.065 504.240 562.055 506.240 ;
+        RECT 0.065 502.840 560.650 504.240 ;
+        RECT 0.065 497.440 562.055 502.840 ;
+        RECT 4.400 496.040 562.055 497.440 ;
+        RECT 0.065 494.040 562.055 496.040 ;
+        RECT 0.065 492.640 560.650 494.040 ;
+        RECT 0.065 483.840 562.055 492.640 ;
+        RECT 4.400 482.440 560.650 483.840 ;
+        RECT 0.065 473.640 562.055 482.440 ;
+        RECT 4.400 472.240 560.650 473.640 ;
+        RECT 0.065 463.440 562.055 472.240 ;
+        RECT 4.400 462.040 562.055 463.440 ;
+        RECT 0.065 460.040 562.055 462.040 ;
+        RECT 0.065 458.640 560.650 460.040 ;
+        RECT 0.065 453.240 562.055 458.640 ;
+        RECT 4.400 451.840 562.055 453.240 ;
+        RECT 0.065 449.840 562.055 451.840 ;
+        RECT 0.065 448.440 560.650 449.840 ;
+        RECT 0.065 439.640 562.055 448.440 ;
+        RECT 4.400 438.240 560.650 439.640 ;
+        RECT 0.065 429.440 562.055 438.240 ;
+        RECT 4.400 428.040 560.650 429.440 ;
+        RECT 0.065 419.240 562.055 428.040 ;
+        RECT 4.400 417.840 562.055 419.240 ;
+        RECT 0.065 415.840 562.055 417.840 ;
+        RECT 0.065 414.440 560.650 415.840 ;
+        RECT 0.065 409.040 562.055 414.440 ;
+        RECT 4.400 407.640 562.055 409.040 ;
+        RECT 0.065 405.640 562.055 407.640 ;
+        RECT 0.065 404.240 560.650 405.640 ;
+        RECT 0.065 395.440 562.055 404.240 ;
+        RECT 4.400 394.040 560.650 395.440 ;
+        RECT 0.065 385.240 562.055 394.040 ;
+        RECT 4.400 383.840 560.650 385.240 ;
+        RECT 0.065 375.040 562.055 383.840 ;
+        RECT 4.400 373.640 562.055 375.040 ;
+        RECT 0.065 371.640 562.055 373.640 ;
+        RECT 0.065 370.240 560.650 371.640 ;
+        RECT 0.065 364.840 562.055 370.240 ;
+        RECT 4.400 363.440 562.055 364.840 ;
+        RECT 0.065 361.440 562.055 363.440 ;
+        RECT 0.065 360.040 560.650 361.440 ;
+        RECT 0.065 351.240 562.055 360.040 ;
+        RECT 4.400 349.840 560.650 351.240 ;
+        RECT 0.065 341.040 562.055 349.840 ;
+        RECT 4.400 339.640 560.650 341.040 ;
+        RECT 0.065 330.840 562.055 339.640 ;
+        RECT 4.400 329.440 562.055 330.840 ;
+        RECT 0.065 327.440 562.055 329.440 ;
+        RECT 0.065 326.040 560.650 327.440 ;
+        RECT 0.065 320.640 562.055 326.040 ;
+        RECT 4.400 319.240 562.055 320.640 ;
+        RECT 0.065 317.240 562.055 319.240 ;
+        RECT 0.065 315.840 560.650 317.240 ;
+        RECT 0.065 307.040 562.055 315.840 ;
+        RECT 4.400 305.640 560.650 307.040 ;
+        RECT 0.065 296.840 562.055 305.640 ;
+        RECT 4.400 295.440 560.650 296.840 ;
+        RECT 0.065 286.640 562.055 295.440 ;
+        RECT 4.400 285.240 562.055 286.640 ;
+        RECT 0.065 283.240 562.055 285.240 ;
+        RECT 0.065 281.840 560.650 283.240 ;
+        RECT 0.065 276.440 562.055 281.840 ;
+        RECT 4.400 275.040 562.055 276.440 ;
+        RECT 0.065 273.040 562.055 275.040 ;
+        RECT 0.065 271.640 560.650 273.040 ;
+        RECT 0.065 262.840 562.055 271.640 ;
+        RECT 4.400 261.440 560.650 262.840 ;
+        RECT 0.065 252.640 562.055 261.440 ;
+        RECT 4.400 251.240 560.650 252.640 ;
+        RECT 0.065 242.440 562.055 251.240 ;
+        RECT 4.400 241.040 562.055 242.440 ;
+        RECT 0.065 239.040 562.055 241.040 ;
+        RECT 0.065 237.640 560.650 239.040 ;
+        RECT 0.065 232.240 562.055 237.640 ;
+        RECT 4.400 230.840 562.055 232.240 ;
+        RECT 0.065 228.840 562.055 230.840 ;
+        RECT 0.065 227.440 560.650 228.840 ;
+        RECT 0.065 218.640 562.055 227.440 ;
+        RECT 4.400 217.240 560.650 218.640 ;
+        RECT 0.065 208.440 562.055 217.240 ;
+        RECT 4.400 207.040 560.650 208.440 ;
+        RECT 0.065 198.240 562.055 207.040 ;
+        RECT 4.400 196.840 562.055 198.240 ;
+        RECT 0.065 194.840 562.055 196.840 ;
+        RECT 0.065 193.440 560.650 194.840 ;
+        RECT 0.065 188.040 562.055 193.440 ;
+        RECT 4.400 186.640 562.055 188.040 ;
+        RECT 0.065 184.640 562.055 186.640 ;
+        RECT 0.065 183.240 560.650 184.640 ;
+        RECT 0.065 174.440 562.055 183.240 ;
+        RECT 4.400 173.040 560.650 174.440 ;
+        RECT 0.065 164.240 562.055 173.040 ;
+        RECT 4.400 162.840 560.650 164.240 ;
+        RECT 0.065 154.040 562.055 162.840 ;
+        RECT 4.400 152.640 562.055 154.040 ;
+        RECT 0.065 150.640 562.055 152.640 ;
+        RECT 0.065 149.240 560.650 150.640 ;
+        RECT 0.065 143.840 562.055 149.240 ;
+        RECT 4.400 142.440 562.055 143.840 ;
+        RECT 0.065 140.440 562.055 142.440 ;
+        RECT 0.065 139.040 560.650 140.440 ;
+        RECT 0.065 130.240 562.055 139.040 ;
+        RECT 4.400 128.840 560.650 130.240 ;
+        RECT 0.065 120.040 562.055 128.840 ;
+        RECT 4.400 118.640 560.650 120.040 ;
+        RECT 0.065 109.840 562.055 118.640 ;
+        RECT 4.400 108.440 562.055 109.840 ;
+        RECT 0.065 106.440 562.055 108.440 ;
+        RECT 0.065 105.040 560.650 106.440 ;
+        RECT 0.065 99.640 562.055 105.040 ;
+        RECT 4.400 98.240 562.055 99.640 ;
+        RECT 0.065 96.240 562.055 98.240 ;
+        RECT 0.065 94.840 560.650 96.240 ;
+        RECT 0.065 86.040 562.055 94.840 ;
+        RECT 4.400 84.640 560.650 86.040 ;
+        RECT 0.065 75.840 562.055 84.640 ;
+        RECT 4.400 74.440 560.650 75.840 ;
+        RECT 0.065 65.640 562.055 74.440 ;
+        RECT 4.400 64.240 562.055 65.640 ;
+        RECT 0.065 62.240 562.055 64.240 ;
+        RECT 0.065 60.840 560.650 62.240 ;
+        RECT 0.065 55.440 562.055 60.840 ;
+        RECT 4.400 54.040 562.055 55.440 ;
+        RECT 0.065 52.040 562.055 54.040 ;
+        RECT 0.065 50.640 560.650 52.040 ;
+        RECT 0.065 41.840 562.055 50.640 ;
+        RECT 4.400 40.440 560.650 41.840 ;
+        RECT 0.065 31.640 562.055 40.440 ;
+        RECT 4.400 30.240 560.650 31.640 ;
+        RECT 0.065 21.440 562.055 30.240 ;
+        RECT 4.400 20.040 562.055 21.440 ;
+        RECT 0.065 18.040 562.055 20.040 ;
+        RECT 0.065 16.640 560.650 18.040 ;
+        RECT 0.065 11.240 562.055 16.640 ;
+        RECT 4.400 9.840 562.055 11.240 ;
+        RECT 0.065 7.840 562.055 9.840 ;
+        RECT 0.065 6.975 560.650 7.840 ;
+      LAYER met4 ;
+        RECT 0.295 16.495 20.640 562.185 ;
+        RECT 23.040 16.495 97.440 562.185 ;
+        RECT 99.840 16.495 174.240 562.185 ;
+        RECT 176.640 16.495 251.040 562.185 ;
+        RECT 253.440 16.495 327.840 562.185 ;
+        RECT 330.240 16.495 404.640 562.185 ;
+        RECT 407.040 16.495 481.440 562.185 ;
+        RECT 483.840 16.495 554.465 562.185 ;
+  END
+END wrapped_ibnalhaytham
+END LIBRARY
+
