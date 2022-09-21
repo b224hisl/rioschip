@@ -1,14 +1,14 @@
 ###############################################################################
 # Created by write_sdc
-# Tue Sep 13 04:30:50 2022
+# Tue Sep 20 11:59:49 2022
 ###############################################################################
 current_design user_project_wrapper
 ###############################################################################
 # Timing Constraints
 ###############################################################################
-create_clock -name user_clock2 -period 10.0000 [get_ports {user_clock2}]
+create_clock -name user_clock2 -period 12.5000 [get_ports {user_clock2}]
 set_propagated_clock [get_clocks {user_clock2}]
-create_clock -name wb_clk_i -period 10.0000 [get_ports {wb_clk_i}]
+create_clock -name wb_clk_i -period 12.5000 [get_ports {wb_clk_i}]
 set_propagated_clock [get_clocks {wb_clk_i}]
 ###############################################################################
 # Environment
