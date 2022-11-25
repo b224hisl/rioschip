@@ -17,22 +17,24 @@ MAKEFLAGS+=--warn-undefined-variables
 
 export CARAVEL_ROOT?=$(PWD)/caravel
 PRECHECK_ROOT?=${HOME}/mpw_precheck
-MCW_ROOT?=$(PWD)/mgmt_core_wrapper
+export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
 SIM?=RTL
-
-export SKYWATER_COMMIT=f70d8ca46961ff92719d8870a18a076370b85f6c
-export OPEN_PDKS_COMMIT?=41c0908b47130d5675ff8484255b43f66463a7d6
-export OPENLANE_TAG=2022.07.02_01.38.08
 
 # Install lite version of caravel, (1): caravel-lite, (0): caravel
 CARAVEL_LITE?=1
 
 # PDK switch varient
-export PDK?=sky130B
+export PDK?=sky130A
+#export PDK?=gf180mcuC
 export PDKPATH?=$(PDK_ROOT)/$(PDK)
 
-MPW_TAG ?= mpw-7a
 
+
+ifeq ($(PDK),sky130A)
+	SKYWATER_COMMIT=f70d8ca46961ff92719d8870a18a076370b85f6c
+	export OPEN_PDKS_COMMIT?=0059588eebfc704681dc2368bd1d33d96281d10f
+	export OPENLANE_TAG?=2022.11.19
+	MPW_TAG ?= mpw-8a
 
 ifeq ($(CARAVEL_LITE),1)
 	CARAVEL_NAME := caravel-lite
@@ -42,6 +44,38 @@ else
 	CARAVEL_NAME := caravel
 	CARAVEL_REPO := https://github.com/efabless/caravel
 	CARAVEL_TAG := $(MPW_TAG)
+endif
+
+endif
+
+ifeq ($(PDK),sky130B)
+	SKYWATER_COMMIT=f70d8ca46961ff92719d8870a18a076370b85f6c
+	export OPEN_PDKS_COMMIT?=0059588eebfc704681dc2368bd1d33d96281d10f
+	export OPENLANE_TAG?=2022.11.19
+	MPW_TAG ?= mpw-8a
+
+ifeq ($(CARAVEL_LITE),1)
+	CARAVEL_NAME := caravel-lite
+	CARAVEL_REPO := https://github.com/efabless/caravel-lite
+	CARAVEL_TAG := $(MPW_TAG)
+else
+	CARAVEL_NAME := caravel
+	CARAVEL_REPO := https://github.com/efabless/caravel
+	CARAVEL_TAG := $(MPW_TAG)
+endif
+
+endif
+
+ifeq ($(PDK),gf180mcuC)
+
+	MPW_TAG ?= gfmpw-0a
+	CARAVEL_NAME := caravel
+	CARAVEL_REPO := https://github.com/efabless/caravel-gf180mcu
+	CARAVEL_TAG := $(MPW_TAG)
+	#OPENLANE_TAG=ddfeab57e3e8769ea3d40dda12be0460e09bb6d9
+	export OPEN_PDKS_COMMIT?=0059588eebfc704681dc2368bd1d33d96281d10f
+	export OPENLANE_TAG?=2022.11.19
+
 endif
 
 # Include Caravel Makefile Targets
@@ -64,7 +98,7 @@ simenv:
 	docker pull efabless/dv:latest
 
 .PHONY: setup
-setup: install check-env install_mcw openlane pdk-with-volare
+setup: install check-env install_mcw openlane pdk-with-volare setup-timing-scripts
 
 # Openlane
 blocks=$(shell cd openlane && find * -maxdepth 0 -type d)
@@ -87,8 +121,10 @@ docker_run_verify=\
 		-e CARAVEL_ROOT=${CARAVEL_ROOT} \
 		-e TOOLS=/foss/tools/riscv-gnu-toolchain-rv32i/217e7f3debe424d61374d31e33a091a630535937 \
 		-e DESIGNS=$(TARGET_PATH) \
+		-e USER_PROJECT_VERILOG=$(TARGET_PATH)/verilog \
 		-e PDK=$(PDK) \
 		-e CORE_VERILOG_PATH=$(TARGET_PATH)/mgmt_core_wrapper/verilog \
+		-e CARAVEL_VERILOG_PATH=$(TARGET_PATH)/caravel/verilog \
 		-e MCW_ROOT=$(MCW_ROOT) \
 		-u $$(id -u $$USER):$$(id -g $$USER) efabless/dv:latest \
 		sh -c $(verify_command)
@@ -225,3 +261,64 @@ help:
 	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
 
 
+export CUP_ROOT=$(shell pwd)
+export TIMING_ROOT?=$(shell pwd)/deps/timing-scripts
+export PROJECT_ROOT=$(CUP_ROOT)
+timing-scripts-repo=https://github.com/efabless/timing-scripts.git
+
+$(TIMING_ROOT):
+	@mkdir -p $(CUP_ROOT)/deps
+	@git clone $(timing-scripts-repo) $(TIMING_ROOT)
+
+.PHONY: setup-timing-scripts
+setup-timing-scripts: $(TIMING_ROOT)
+	@( cd $(TIMING_ROOT) && git pull )
+	@#( cd $(TIMING_ROOT) && git fetch && git checkout $(MPW_TAG); )
+	@python3 -m venv ./venv 
+		. ./venv/bin/activate && \
+		python3 -m pip install --upgrade pip && \
+		python3 -m pip install -r $(TIMING_ROOT)/requirements.txt && \
+		deactivate
+
+./verilog/gl/user_project_wrapper.v:
+	$(error you don't have $@)
+
+./env/spef-mapping.tcl: 
+	@echo "run the following:"
+	@echo "make extract-parasitics"
+	@echo "make create-spef-mapping"
+	exit 1
+
+.PHONY: create-spef-mapping
+create-spef-mapping: ./verilog/gl/user_project_wrapper.v
+	@. ./venv/bin/activate && \
+		python3 $(TIMING_ROOT)/scripts/generate_spef_mapping.py \
+			-i ./verilog/gl/user_project_wrapper.v \
+			-o ./env/spef-mapping.tcl \
+			--pdk-path $(PDK_ROOT)/$(PDK) \
+			--macro-parent mprj \
+			--project-root "$(CUP_ROOT)" && \
+		deactivate
+
+.PHONY: extract-parasitics
+extract-parasitics: ./verilog/gl/user_project_wrapper.v
+	@. ./venv/bin/activate && \
+		python3 $(TIMING_ROOT)/scripts/get_macros.py \
+		-i ./verilog/gl/user_project_wrapper.v \
+		-o ./tmp-macros-list \
+		--project-root "$(CUP_ROOT)" \
+		--pdk-path $(PDK_ROOT)/$(PDK) && \
+		deactivate
+		@cat ./tmp-macros-list | cut -d " " -f2 \
+			| xargs -I % bash -c "$(MAKE) -C $(TIMING_ROOT) \
+				-f $(TIMING_ROOT)/timing.mk rcx-% || echo 'Cannot extract %. Probably no def for this macro'"
+	@$(MAKE) -C $(TIMING_ROOT) -f $(TIMING_ROOT)/timing.mk rcx-user_project_wrapper
+	@cat ./tmp-macros-list
+	@rm ./tmp-macros-list
+	
+.PHONY: caravel-sta
+caravel-sta: ./env/spef-mapping.tcl
+	@$(MAKE) -C $(TIMING_ROOT) -f $(TIMING_ROOT)/timing.mk caravel-timing-typ
+	@$(MAKE) -C $(TIMING_ROOT) -f $(TIMING_ROOT)/timing.mk caravel-timing-fast
+	@$(MAKE) -C $(TIMING_ROOT) -f $(TIMING_ROOT)/timing.mk caravel-timing-slow
+	@echo "You can find results for all corners in $(CUP_ROOT)/signoff/caravel/openlane-signoff/timing/"

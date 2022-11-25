@@ -31,6 +31,7 @@
 `include "inc/rvj1_defines.v"
 `include "caravel_defines.v"
 `include "hehe/src/params.vh"
+`include "../rtl/user_defines.v"
 module user_project_wrapper #(
     parameter BITS = 32
 ) (

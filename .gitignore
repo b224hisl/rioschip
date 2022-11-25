@@ -14,3 +14,6 @@
 /verilog/rtl/
 /caravel
 /mgmt_core_wrapper
+/deps
+/venv
+/signoff/caravel
